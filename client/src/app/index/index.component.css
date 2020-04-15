@@ -8,6 +8,11 @@
 img{
     width:100%;
 }
+h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
 
 #greeting{
     height: inherit;
