@@ -32,5 +32,6 @@ a{
 @media only screen and (max-width: 768px){
     #footer{
         border-top: solid black 5px;
+        border-bottom: solid black 5px;
     }
 }
