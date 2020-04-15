@@ -6,15 +6,16 @@
     border-radius: 0px;
     background-color: rgb(121, 0, 0);
     padding: 10px;
-    height: 80px;
+    height: 100px;
     margin: 0px;
     text-align: center;
 }
-p{
+#footp{
     color: white;
     display: block;
     font-size: 1em;
     margin: 0;
+    text-align: center;
 }
 #shoe{
     margin:0;
@@ -26,4 +27,10 @@ a{
     background-color: transparent;
     border: none;
     margin: 0% .5%;
+}
+
+@media only screen and (max-width: 768px){
+    #footer{
+        border-top: solid black 5px;
+    }
 }

@@ -4,14 +4,17 @@
 .pageContainer{
     width: 100%;
     height: inherit;
-    background-color: black;
+    /* background-color: black; */
+    background-image: linear-gradient(135deg, black, white 99%);
+
     padding: 25px 0px;
 }
 
 
 .containers{
     border: solid black 2px;
-    background-image: repeating-linear-gradient(45deg, black, white .5%);
+    background-image: linear-gradient(135deg, rgb(121,0,0), Black 99%);
+
     text-align: center;
     padding: 1.5% .5%;
     vertical-align: top;
@@ -24,4 +27,36 @@
     border: solid black 3px;
     width: 90%;
     margin: 0 auto;
+    height: inherit;
+
+}
+p{
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    .pageContainer{
+    background-image: linear-gradient(180deg, black, rgb(121,0,0) 99%);
+    }
+
+    .containers{
+        padding: 0%;
+        margin: 25px auto 0 auto;
+        width: 100%;
+        display: block;
+        border: solid black 3px;
+        background-color: transparent;
+
+    
+    }
+    
+    .subtainers{
+
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+
+    }
 }

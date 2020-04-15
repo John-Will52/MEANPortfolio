@@ -2,9 +2,8 @@
 #image{
     height: inherit;
     width:35%;
-    display: inline-block;
-
-    
+    min-width: 30%;
+    display: inline-block;    
 }
 img{
     width:100%;
@@ -13,5 +12,33 @@ img{
 #greeting{
     height: inherit;
     width: 55%;
-    display: inline-block;    
+    min-width: 50%;
+    display: inline-block;
+    padding: 1.5% .5%;
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+    
+    #image{
+        height: inherit;
+        width:90%;
+        display: block;
+        margin: 0 auto;
+
+    }
+    
+    #greeting{
+        height: inherit;
+        width: 90%;
+        display: block;  
+        margin: 20 auto 0 auto;
+        padding: 15px;
+        background-image: none;
+        background-color: white;
+
+
+    }
 }
