@@ -1,0 +1,29 @@
+#footer{
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0px;
+    background-color: rgb(121, 0, 0);
+    padding: 10px;
+    height: 80px;
+    margin: 0px;
+    text-align: center;
+}
+p{
+    color: white;
+    display: block;
+    font-size: 1em;
+    margin: 0;
+}
+#shoe{
+    margin:0;
+}
+a{
+    color: white;
+    display: inline-block;
+    font-size: .5em;
+    background-color: transparent;
+    border: none;
+    margin: 0% .5%;
+}

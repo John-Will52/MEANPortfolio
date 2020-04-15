@@ -1,8 +1,9 @@
 #navBar{
     border-radius: 0px;
-    background-color: rgb(135, 20, 20);
+    background-color: rgb(121,0,0);
     padding: 15px;
     height: 150px;
+    margin: 0px;
 }
 h1{
     color: white;

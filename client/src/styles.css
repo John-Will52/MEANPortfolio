@@ -1,2 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.css';
+
+.pageContainer{
+    width: 100%;
+    height: inherit;
+    background-color: black;
+    padding: 25px 0px;
+}
+
+
+.containers{
+    border: solid black 2px;
+    background-image: repeating-linear-gradient(45deg, black, white .5%);
+    text-align: center;
+    padding: 1.5% .5%;
+    vertical-align: top;
+    margin: 0 2.5%;
+
+}
+
+.subtainers{
+    background-color:white;
+    border: solid black 3px;
+    width: 90%;
+    margin: 0 auto;
+}
