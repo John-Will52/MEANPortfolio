@@ -1,0 +1,21 @@
+#navBar{
+    border-radius: 0px;
+    background-color: rgb(135, 20, 20);
+    padding: 15px;
+    height: 150px;
+}
+h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    text-align: right;
+}
+.buttons{
+    color: white;
+    display: inline-block;
+    font-size: 1.25em;
+    background-color: transparent;
+    border: none;
+}
