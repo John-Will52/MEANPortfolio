@@ -1,0 +1,34 @@
+{
+  "name": "MEANPortfolio",
+  "version": "1.0.0",
+  "description": "New/Updated Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Will52/MEANPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John-Will52/MEANPortfolio/issues"
+  },
+  "homepage": "https://github.com/John-Will52/MEANPortfolio#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "jquery": "^3.5.0",
+    "mongoose": "^5.9.9",
+    "path": "^0.12.7",
+    "popper.js": "^1.16.0"
+  }
+}
