@@ -7,6 +7,11 @@ app.use(express.static(path.join(__dirname, '/client/dist/client')));
 app.use(parser.json());
 require('./server/config/mongoose');
 require('./server/config/routes')(app);
+
+app.get('*', function(req, res){
+  res.redirect("/");
+});
+
 app.listen(PORT, function(){
 
   console.log(`Connection at port: ${PORT}`);

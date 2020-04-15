@@ -15,7 +15,6 @@ const routes: Routes = [
   {path: 'workshop', component: WorkshopComponent},
   {path: 'contact', component: ContactComponent},
   {path: '**', component: IndexComponent},
-
 ];
 
 @NgModule({
