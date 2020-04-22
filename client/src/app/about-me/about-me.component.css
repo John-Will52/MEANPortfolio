@@ -1,0 +1,48 @@
+img{
+    width:100%;
+    height:inherit;
+    max-height: 660px;
+
+    /* max-width: 40%; */
+
+}
+.containers{
+    display: inline-block;
+}
+#frame{
+    width: 35%;
+    height: inherit;
+    padding: 1%;
+    max-width: 40%;
+    max-height: 697px;
+    /* margin: 20px; */
+}
+.buttons{
+    height:275px;
+    width:275px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 10px auto;
+}
+#buttonContainer{
+    width: 55%;
+    height: inherit;
+    max-width: 60%;
+    min-width: 460px;
+}
+
+@media only screen and (min-width: 1679px){
+    .buttons{
+        height:300px;
+        width:300px;
+        display: inline-block;
+        border-radius: 100%;
+        margin: 10px auto;
+    }
+}
+@media only screen and (max-width: 768px){
+    #frame{
+        padding:0%;
+        width: 90%;
+    }
+}

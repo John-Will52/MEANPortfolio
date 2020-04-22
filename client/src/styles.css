@@ -48,6 +48,7 @@ p{
         display: block;
         border: solid black 3px;
         background-color: transparent;
+        background-image: none;
 
     
     }
